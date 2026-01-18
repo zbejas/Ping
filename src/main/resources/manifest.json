@@ -1,0 +1,19 @@
+{
+  "Group": "Zbejas",
+  "Name": "Ping",
+  "Version": "1.0.0",
+  "Main": "io.zbejas.ping.Main",
+  "Description": "Ping any place nearby to show people around what you are looking at.",
+  "Authors": [
+    {
+      "Name": "Zbejas",
+      "Email": "info@zbejas.io",
+      "Url": "https://zbejas.io"
+    }
+  ],
+  "Website": "https://zbejas.io/projects/ping",
+  "ServerVersion": "*",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "DisabledByDefault": false
+}
