@@ -48,10 +48,6 @@ public class PacketListener implements PacketWatcher {
         }
 
         UUID uuid = playerAuth.getUuid();
-        if (uuid == null) {
-            return;
-        }
-
         PlayerRef player = Universe.get().getPlayer(uuid);
         if (player == null) {
             return;
