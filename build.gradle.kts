@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "io.zbejas.ping"
-version = "1.0.0"
+version = "1.0.1"
 
 repositories {
     mavenCentral()
@@ -18,4 +18,10 @@ dependencies {
 
 tasks.test {
     useJUnitPlatform()
+}
+
+tasks.processResources {
+    filesMatching("manifest.json") {
+        expand("version" to project.version)
+    }
 }
