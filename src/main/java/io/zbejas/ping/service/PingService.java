@@ -104,11 +104,6 @@ public class PingService {
             return;
         }
 
-        if (transform == null) {
-            logger.debugPlayer(player, "Could not get player transform");
-            return;
-        }
-
         Vector3d eyePosition = calculateEyePosition(transform.getPosition());
         Vector3d lookDirection = getLookDirection(player, transform);
 

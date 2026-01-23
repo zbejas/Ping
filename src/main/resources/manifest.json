@@ -1,7 +1,7 @@
 {
   "Group": "Zbejas",
   "Name": "Ping",
-  "Version": "1.0.0",
+  "Version": "${version}",
   "Main": "io.zbejas.ping.Main",
   "Description": "Ping any place nearby to show people around what you are looking at.",
   "Authors": [
@@ -11,7 +11,7 @@
       "Url": "https://zbejas.io"
     }
   ],
-  "Website": "https://zbejas.io/projects/ping",
+  "Website": "https://www.curseforge.com/hytale/mods/ping",
   "ServerVersion": "*",
   "Dependencies": {},
   "OptionalDependencies": {},
